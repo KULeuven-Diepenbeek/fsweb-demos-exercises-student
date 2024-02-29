@@ -5,5 +5,5 @@ Demos and exercises used during classes. With solutions provided after the appli
 
 Overview of alle exercise branches can be found below:
 
-- CSS-advanced-exercises
+- CSS-advanced-exercises (exercise1_15-start, exercise1_15-solution)
 
