@@ -6,5 +6,5 @@ _starting files are tagged with "exerciseName-start", the solution is tagged wit
 
 Overview of all exercise branches can be found below:
 
-- CSS-advanced-exercises (exercise1_15-start, exercise1_15-solution)
+- CSS-advanced-exercises (CSS_advanced-exercise1_15-start, CSS_advanced-exercise1_15-start)
 
