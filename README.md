@@ -1,6 +1,7 @@
-## Exercises
+## Checkout to the correct branch to view exercises 
+_starting files are tagged with "exerciseName-start", the solution is tagged with "exerciseName-solution"_
 
-clone single branch with: `$ git clone -b branchName https://github.com/userName/repoName --single-branch`
+Overview of all exercise branches can be found below:
 
-- **exerciseAll/** : start-files van alle [exercises CSS-advanced](https://kuleuven-diepenbeek.github.io/fsweb-course/frontend/css_advanced/#opdrachten)
+- CSS-advanced-exercises (exercise1_15-start, exercise1_15-solution)
 

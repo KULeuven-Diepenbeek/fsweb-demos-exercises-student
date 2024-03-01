@@ -1,4 +1,8 @@
+<<<<<<< HEAD
 #VS Code
+=======
+# VS Code
+>>>>>>> main
 *.code-workspace
 .vscode/
 
