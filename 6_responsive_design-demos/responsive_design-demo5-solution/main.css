@@ -1,0 +1,67 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+* {
+  padding: 0;
+  margin: 0;
+
+}
+
+:root {
+  --item-size: 100px;
+}
+
+body {
+  height: 200vh;
+  padding: 20px;
+}
+
+.item {
+  width: var(--item-size);
+  height: var(--item-size);
+  background-color: lightblue;
+  border: solid blue;
+  border-radius: 10%;
+  text-align: center;
+  padding-top: 20px;
+}
+
+.container {
+  background-color: aquamarine;
+  padding: 10px;
+  height: 90vh;
+
+  display: flex;
+  /* flex-direction: column; */
+
+  justify-content: flex-start;
+  align-items: flex-start;
+
+  /* flex-wrap: wrap; */
+  align-content: flex-start;
+
+  /* gap: 1em; */
+}
+
+.item.item1 {
+  /* font-size: 2em; */
+  flex-grow: 1;
+  /* flex-shrink: 5; */
+  /* flex-basis: 300px; */
+
+  /* flex: 1; */
+
+  /* align-self: center; */
+  /* order: 2; */
+}
+
+.item.item2 {
+  flex-grow: 2;
+}
+
+.item.item3 {
+  flex-grow: 1;
+}

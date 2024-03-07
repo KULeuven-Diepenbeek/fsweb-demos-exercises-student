@@ -1,0 +1,79 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+* {
+  padding: 0;
+  margin: 0;
+
+}
+
+:root {
+  --item-size: 100px;
+}
+
+body {
+  height: 200vh;
+  padding: 20px;
+  /* tegen de overflow van item5 */
+  overflow-x: hidden;
+}
+
+.container {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  row-gap: 20px;
+  gap: 20px;
+
+  background-color: aquamarine;
+  padding: 10px;
+
+  /* item 5 nu relative */
+  /* position: relative; */
+
+}
+
+.item {
+  width: var(--item-size);
+  height: var(--item-size);
+  background-color: lightblue;
+  border: solid blue;
+  border-radius: 10%;
+  text-align: center;
+  padding-top: 20px;
+}
+
+/* Item 5 "verwijderd" uit document */
+/* .item5 {
+  position: absolute;
+  top: 0px;
+  right: -30px;
+  z-index: 1;
+} */
+
+/* Item 1 blijft in normal flow document */
+/* .item1 {
+  position: relative;
+  top: 10px;
+  left: 20px
+} */
+
+/* Item 2 fixed doorheen scroll */
+/* .item2 {
+  position: fixed;
+  top: 0px;
+  left: 0px;
+  width: 100%;
+  border-radius: 0%;
+  border: none;
+  height: 10vh;
+} */
+
+/* Item 3 sticky */
+/* .item3 {
+  position: sticky;
+  top: 10px;
+  right: 0px;
+} */

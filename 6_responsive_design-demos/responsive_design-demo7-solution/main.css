@@ -1,0 +1,51 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+* {
+  padding: 0;
+  margin: 10px;
+}
+
+/* :root {
+  --base: lightgrey;
+  --text: black;
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    color-scheme: dark;
+    --base: black;
+    --text: lightgrey;
+  }
+} */
+
+html {
+  /* color-scheme: light dark; */
+}
+
+[data-theme="light"] {
+  color-scheme: light;
+  --base: lightgrey;
+  --text: black;
+}
+
+[data-theme="dark"] {
+  color-scheme: dark;
+  --base: black;
+  --text: lightgrey;
+}
+
+body {
+  padding: 20px;
+  color: var(--text);
+  background-color: var(--base);
+}
+
+p {
+  height: 200px;
+  width: 400px;
+  overflow-y: scroll;
+}
